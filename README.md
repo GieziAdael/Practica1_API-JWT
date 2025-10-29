@@ -32,9 +32,9 @@ Solo administrador y moderador puede crear o eliminar objeto
 ------------------------------------------------------------
 🧑‍💻 Autor
 ------------------------------------------------------------
-Desarrollador: GieziAdael
-Rol: Backend Developer (.NET Junior)
-Contacto: giezi.tlaxcoapan@gmail.com
+Desarrollador: GieziAdael <br>
+Rol: Backend Developer (.NET Junior) <br>
+Contacto: giezi.tlaxcoapan@gmail.com <br>
 
 ------------------------------------------------------------
 📘 Descripción Ampliada
