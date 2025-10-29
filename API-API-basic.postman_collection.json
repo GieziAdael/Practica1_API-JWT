@@ -1,0 +1,107 @@
+{
+	"info": {
+		"_postman_id": "ecd5a685-d324-4e56-b190-ec115e998f55",
+		"name": "API-API-basic",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "48683651"
+	},
+	"item": [
+		{
+			"name": "Users",
+			"item": [
+				{
+					"name": "Get all users",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjUiLCJlbWFpbCI6InlvQGdtYWlsLmNvbSIsInJvbGUiOiJhZG1pbiIsIm5iZiI6MTc2MTY5ODcwMCwiZXhwIjoxNzYxNzA1OTAwLCJpYXQiOjE3NjE2OTg3MDB9.ipDKec9bxBVvTuuVDyaj-EyvfT-oIPoEh8oSgSduoKk",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7101/api/User/GetAll",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7101",
+							"path": [
+								"api",
+								"User",
+								"GetAll"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Name User",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7101/api/User/ActualizarEmail/5/micorreo%40gmail.com",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7101",
+							"path": [
+								"api",
+								"User",
+								"ActualizarEmail",
+								"5",
+								"micorreo%40gmail.com"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Objetos",
+			"item": [
+				{
+					"name": "Get all objetos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7101/api/Objeto/GetAll",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7101",
+							"path": [
+								"api",
+								"Objeto",
+								"GetAll"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
