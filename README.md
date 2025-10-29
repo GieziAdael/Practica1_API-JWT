@@ -30,6 +30,25 @@ Solo administrador y moderador puede crear o eliminar objeto <br>
 - SQL Server LocalDB <br>
 
 ------------------------------------------------------------
+Endpoints y Permisos
+------------------------------------------------------------
+User:<br>
+GET /api/User/GetAll → Solo admin<br>
+GET /api/User/Get/{id} → Solo admin<br>
+POST /api/User/Create → Todos los usuarios<br>
+POST /api/User/Login → Todos los usuarios<br>
+PATCH /api/User/ActualizarEmail/{id}/{email} → Todos los usuarios<br>
+DELETE /api/User/Delete → Todos los usuarios<br>
+<br>
+Objeto:<br>
+GET /api/Objeto/GetAll → Todos los usuarios<br>
+GET /api/Objeto/Get/{id} → Todos los usuarios<br>
+POST /api/Objeto/Create → admin, modd<br>
+PATCH /api/Objeto/ActualizarNombre/{id}/{name} → admin, modd<br>
+DELETE /api/Objeto/Delete → admin, modd<br>
+
+
+------------------------------------------------------------
 🧑‍💻 Autor
 ------------------------------------------------------------
 Desarrollador: GieziAdael <br>
